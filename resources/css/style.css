@@ -1,0 +1,568 @@
+/*Universal Styles*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #455261;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+}
+
+/*Header Section*/
+
+header {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+  box-shadow: 0 0 10px 5px #e4eef6;
+  width: 100%;
+  z-index: 10;
+  background-color: #f6f5f6;
+}
+
+header .logo {
+  display: flex;
+  padding-left: 1.5rem;
+}
+
+header .logo img {
+  height: 3rem;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+header ul li:first-child {
+  font-weight: bold;
+}
+
+header nav {
+  padding-right: 24px;
+}
+
+header a {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  transition: all 400ms ease-in-out 20ms;
+}
+
+header a:hover {
+  color: #293c5d;
+  text-shadow: 0 1px 2px #293c5d;
+}
+
+/*Main Container Section*/
+
+main {
+  padding-top: 4rem;
+  z-index: 5;
+}
+
+/*Banner Section*/
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #82c2f6;
+}
+
+.banner .imagecontainer1 {
+  width: 60%;
+  overflow: hidden;
+  padding: 2rem 1.5rem;
+}
+
+.banner .imagecontainer1 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.learn {
+  width: 40%;
+  margin-right: 4.5rem;
+  margin-left: 1.5rem;
+}
+
+.learn h2 {
+  margin: 2.5rem 0;
+  line-height: 1.3;
+}
+
+.learn .start {
+  background-color: #293c5d;
+  max-width: 25rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 3px;
+  transition: all 400ms ease-in-out 20ms;
+}
+
+.learn .start:hover {
+  background-color: #f9c113;
+}
+
+.learn a {
+  color: white;
+  text-decoration: none;
+  transition: all 400ms ease-in-out 20ms;
+}
+
+.learn a:hover {
+  color: #293c5d;
+}
+
+/*Campus Section*/
+
+.campus {
+  display: flex;
+  background-color: #f6f5f6;
+}
+
+.campus .imagecontainer2 {
+  width: 60%;
+  overflow: hidden;
+  padding: 2rem 1.5rem;
+  border-right: 1px solid #b3b9be;
+}
+
+.campus .imagecontainer2 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.campus h2 {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.campus .imagecontainer2 p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+
+}
+
+.campus .imagecontainer2 h4 {
+  padding: 2rem 0;
+}
+
+.campus .program {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 1rem 0;
+
+}
+
+.campus .box {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e4eef6;
+  transition: all 400ms ease-in-out 20ms;
+
+}
+
+.campus .box:hover {
+  background-color: #f9c113;
+  color: #293c5d;
+  text-shadow: 0 1px 1px #293c5d;
+}
+
+.campus .imagecontainer3 {
+  width: 35%;
+  overflow: hidden;
+  padding: 1rem;
+
+}
+
+.campus .imagecontainer3 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.campus .imagecontainer3 .text {
+  width: 65%;
+}
+
+.program .text p {
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+.program .text a {
+  text-decoration: none;
+  transition: all 400ms ease-in-out 20ms;
+}
+
+.program .text a:hover {
+  color: firebrick;
+}
+
+/*Learning Program Section*/
+
+.learning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3.5rem;
+  background-color: #82c2f6;
+}
+
+.learning h2 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.learning .upper, .lower {
+  display: flex;
+}
+
+.learning .course {
+  width: 33.33%;
+  padding: 1rem;
+  transition: all 400ms ease-in-out 20ms;
+}
+
+.learning .course img {
+  max-width: 100%;
+}
+
+.learning .coursename {
+  background-color: #f6f5f6;
+  height: 10rem;
+  padding: 1rem;
+}
+
+.learning .coursename h3 {
+  padding: 0.5rem 0;
+}
+
+.learning .coursename p {
+  line-height: 1.5;
+  padding: 0.5rem 0;
+}
+
+.learning .course:hover {
+  box-shadow: 2px 2px 10px 5px #e4eef6;
+}
+
+/*Thesis Exhibit Section*/
+
+.thesis {
+  padding: 2rem 0;
+  background-color: #f6f5f6;
+}
+
+.thesis .content {
+  display: flex;
+}
+
+.thesis h2 {
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.thesis .video {
+  width: 60%;
+  padding: 1.5rem;
+}
+
+.thesis video {
+  max-width: 100%;
+}
+
+.thesis .video h3 {
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.thesis .video p {
+  line-height: 1.5;
+  padding: 0.5rem 0;
+}
+
+.thesis .exhibit {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 1.5rem 0;
+
+}
+
+.thesis .box {
+  display: flex;
+  align-items: center;
+  transition: all 400ms ease-in-out 20ms;
+
+}
+
+.thesis .box:hover {
+  background-color: #f9c113;
+  color: #293c5d;
+  text-shadow: 0 1px 1px #293c5d;
+}
+
+.thesis .imagecontainer3 {
+  width: 35%;
+  overflow: hidden;
+  padding: 1rem;
+
+}
+
+.thesis .imagecontainer3 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.thesis .imagecontainer3 .text {
+  width: 65%;
+
+}
+
+.thesis .text p {
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+/*Footer Section*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 4rem;
+  padding: 1rem 1.5rem;
+  color: #455261;
+  background-color: #82c2f6;
+}
+
+footer h5, a {
+  font-size: 0.75rem;
+}
+
+footer a {
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+/*Queries Section*/
+
+@media only screen and (min-width: 471px) {
+  #fa,
+  #mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+#desktop {
+  display:none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header ul,
+   nav {
+    display: none;
+  }
+
+header .logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1.5rem;
+}
+
+.banner {
+  flex-direction: column;
+  align-items: center;
+  background-color: #b3b9be;
+}
+
+.banner .imagecontainer1 {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0 2rem 0;
+}
+
+.banner .imagecontainer1 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.learn {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.learn h1 {
+  font-size: 2rem;
+  padding: 0 1.5rem;
+}
+
+.learn h2 {
+  font-size: 1.2rem;
+  margin: 2rem 0 1.5rem 0;
+  padding: 0 1.5rem;
+  line-height: 1.3;
+}
+
+.learn .start {
+  background-color: #293c5d;
+  max-width: 25rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 3px;
+  transition: all 400ms ease-in-out 20ms;
+  margin: 0 1.5rem 2rem 1.5rem;
+}
+
+.campus .program {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+
+.campus .box {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  border-bottom: 1px solid #b3b9be;
+  transition: all 400ms ease-in-out 20ms;
+  padding: 1rem;
+}
+
+.campus .box .text {
+  padding-left: 1rem;
+}
+
+.campus h3 {
+  padding-top: 1rem;
+}
+
+.campus .box:hover {
+  background-color: #e4d06b;
+  color: #293c5d;
+  text-shadow: 0 1px 1px #293c5d;
+}
+
+.campus .imagecontainer3 {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+
+}
+
+.campus .imagecontainer3 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.campus .imagecontainer3 .text {
+  width: 100%;
+}
+
+.program .text p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.learning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1rem 1rem 0;
+  background-color: #b3b9be;
+}
+
+.learning h2 {
+  font-weight: bold;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.learning .upper, .lower {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.learning .course {
+  width: 100%;
+  padding: 0.5rem;
+  transition: all 400ms ease-in-out 20ms;
+}
+
+.learning .coursename {
+  background-color: #f6f5f6;
+  height: 2.5rem;
+  width: 100%
+  padding: 1rem;
+}
+
+.learning .coursename h3 {
+  padding: 0.5rem 0;
+}
+
+.thesis {
+  padding: 2rem 0 1.5rem 0;
+}
+
+.thesis h2 {
+  padding-bottom: 1rem;
+}
+
+.thesis .video {
+  width: 100%;
+  padding: 0;
+}
+
+footer {
+  height: 2.75rem;
+  align-items: center;
+}
+
+
+}
